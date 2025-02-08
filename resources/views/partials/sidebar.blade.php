@@ -15,7 +15,7 @@
 
                 <ul class="nav nav-main">
                     <li>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="{{ route('posts') }}">
                             <i class="bx bx-plus" aria-hidden="true"></i>
                             <span>Post</span>
                         </a>
