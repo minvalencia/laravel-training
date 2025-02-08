@@ -20,12 +20,6 @@
                             <span>Post</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="#">
-                            <i class="bx bx-message" aria-hidden="true"></i>
-                            <span>Comment</span>
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </div>

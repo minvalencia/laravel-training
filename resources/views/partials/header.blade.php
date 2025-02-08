@@ -22,7 +22,7 @@
             <div class="dropdown-menu">
                 <ul class="list-unstyled mb-2">
                     <li>
-                        <a role="menuitem" tabindex="-1" href="#"><i class="bx bx-power-off"></i>Logout</a>
+                        <a role="menuitem" tabindex="-1" href="{{ route('logout') }}"><i class="bx bx-power-off"></i>Logout</a>
                     </li>
                 </ul>
             </div>
