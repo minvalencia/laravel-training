@@ -14,16 +14,8 @@ class PostRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'title' => 'required|string|max:1',
+            'title' => 'required|string|max:255',
             'content' => 'required|string',
-        ];
-    }
-
-    public function messages()
-    {
-        return [
-            'title.max' => 'The raymund field is required.',
-            'content.required' => 'The content field is required.',
         ];
     }
 }
