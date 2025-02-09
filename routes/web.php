@@ -14,7 +14,7 @@ Route::get('/logout', function () {
 })->name('logout');
 
 Route::get('/', function () {
-    return redirect()->route('login.index');
+    return redirect()->route('login');
 });
 
 Route::resource('posts', PostController::class)->middleware('auth');
